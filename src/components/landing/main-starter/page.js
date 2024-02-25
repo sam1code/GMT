@@ -3,7 +3,7 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <TECarousel showControls ride="carousel">
+      {/* <TECarousel showControls ride="carousel">
         <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
           <TECarouselItem
             itemID={1}
@@ -36,7 +36,7 @@ const page = () => {
             />
           </TECarouselItem>
         </div>
-      </TECarousel>
+      </TECarousel> */}
     </div>
   );
 };

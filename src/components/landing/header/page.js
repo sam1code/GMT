@@ -3,15 +3,12 @@ import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
-  // State to manage the navbar's visibility
   const [nav, setNav] = useState(false);
 
-  // Toggle function to handle the navbar's display
   const handleNav = () => {
     setNav(!nav);
   };
 
-  // Array containing navigation items
   const navItems = [
     { id: 1, text: "Home" },
     { id: 2, text: "Services" },
@@ -22,17 +19,8 @@ const Navbar = () => {
 
   return (
     <div className=" flex justify-between items-center h-16 px-8  mx-auto md:px-8">
-      {/* Logo */}
-      <Image
-        src="https://flowbite.com/docs/images/logo.svg"
-        width={32}
-        height={32}
-        alt="logo"
-        className="mr-4 cursor-pointer"
-      />
       <h1 className="w-full text-2xl font-bold">GMT Policies </h1>
 
-      {/* Desktop Navigation */}
       <ul className="hidden md:flex">
         {navItems.map((item) => (
           <li
@@ -44,12 +32,10 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* Mobile Navigation Icon */}
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
-      {/* Mobile Navigation Menu */}
       <ul
         className={
           nav
@@ -57,10 +43,8 @@ const Navbar = () => {
             : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]"
         }
       >
-        {/* Mobile Logo */}
         <h1 className="w-full text-2xl font-bold m-4">GMT Policies</h1>
 
-        {/* Mobile Navigation Items */}
         {navItems.map((item) => (
           <li
             key={item.id}

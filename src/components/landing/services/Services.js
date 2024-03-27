@@ -17,8 +17,7 @@ const Services = () => {
       >
         <h1 className="text-3xl font-bold">How can we help you ?</h1>
         <p className="mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          We will help you achieve your best financial targets.
         </p>
       </div>
 
@@ -348,7 +347,7 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
+            <p className=" text-center font-bold">Private equity</p>
             <p className="text-center text-xs mt-2">Protocols apart from</p>
           </div>
           <div
@@ -382,7 +381,7 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
+            <p className=" text-center font-bold">Mutual funds</p>
             <p className="text-center text-xs mt-2">Protocols apart from</p>
           </div>
           <div
@@ -416,7 +415,7 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
+            <p className=" text-center font-bold">Real Estate</p>
             <p className="text-center text-xs mt-2">Protocols apart from</p>
           </div>
         </div>
@@ -459,7 +458,7 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
+            <p className=" text-center font-bold">Direct Credit</p>
             <p className="text-center text-xs mt-2">Protocols apart from</p>
           </div>
           <div
@@ -493,7 +492,7 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
+            <p className=" text-center font-bold">Direct Credit</p>
             <p className="text-center text-xs mt-2">Protocols apart from</p>
           </div>
           <div
@@ -527,7 +526,7 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
+            <p className=" text-center font-bold">Private Pools</p>
             <p className="text-center text-xs mt-2">Protocols apart from</p>
           </div>
           <div
@@ -561,8 +560,7 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
-            <p className="text-center text-xs mt-2">Protocols apart from</p>
+            <p className=" text-center font-bold">Family Investment Planning</p>
           </div>
         </div>
         <div
@@ -604,7 +602,9 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
+            <p className=" text-center font-bold">
+              Personal financial Planning
+            </p>
             <p className="text-center text-xs mt-2">Protocols apart from</p>
           </div>
           <div
@@ -638,7 +638,7 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
+            <p className=" text-center font-bold">Stock Market</p>
             <p className="text-center text-xs mt-2">Protocols apart from</p>
           </div>
           <div
@@ -672,7 +672,7 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
+            <p className=" text-center font-bold">Unlisted Securities</p>
             <p className="text-center text-xs mt-2">Protocols apart from</p>
           </div>
           <div
@@ -706,7 +706,7 @@ const Services = () => {
               </svg>
             </div>
 
-            <p className=" text-center font-bold">Hadge Funds</p>
+            <p className=" text-center font-bold">Crypto Investment</p>
             <p className="text-center text-xs mt-2">Protocols apart from</p>
           </div>
         </div>

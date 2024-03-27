@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className=" flex justify-between items-center h-16 px-8  mx-auto md:px-8">
-      <h1 className="w-full text-2xl font-bold">GMT Policies </h1>
+      <h1 className="w-full text-2xl font-bold">THE FINSERVE</h1>
 
       <ul className="hidden md:flex">
         {navItems.map((item) => (
@@ -43,7 +43,7 @@ const Navbar = () => {
             : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]"
         }
       >
-        <h1 className="w-full text-2xl font-bold m-4">GMT Policies</h1>
+        <h1 className="w-full text-2xl font-bold m-4">THE FINSERVE</h1>
 
         {navItems.map((item) => (
           <li

@@ -36,12 +36,11 @@ const SlideshowWithDetails = () => {
         }}
       >
         <h2 className="text-3xl font-bold text-gray-800 mb-8  z-10">
-          Let’s upgrade your policy
+          Reshaping Personal & Family Financial Planning
         </h2>
         <p className="text-gray-600 text-justify text-sm  mb-8">
-          simply dummy text of the printing and typesetting industry. Lorem
-          Ipsum has been the industrys standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make
+          Empowering Futures, One Plan at a Time: Reshaping Personal & Family
+          Financial & Investment Planning...
         </p>
         <div className="flex items-center mt-4 gap-8">
           <button

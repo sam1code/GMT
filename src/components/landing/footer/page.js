@@ -8,7 +8,7 @@ export default function Home() {
           <div class="mb-6 md:mb-0">
             <a href="https://GMT Policies.com/" class="flex items-center">
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                GMT Policies
+                THE FINSERVE
               </span>
             </a>
             <p class="mt-2 text-gray-500 dark:text-gray-400 max-w-80 text-xs text-justify">
@@ -25,7 +25,7 @@ export default function Home() {
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                   <a href="https://GMT Policies.com/" class="hover:underline">
-                    GMT Policies
+                    THE FINSERVE
                   </a>
                 </li>
                 <li class="mb-4">
@@ -92,7 +92,7 @@ export default function Home() {
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}
             <a href="https://flowbite.com/" class="hover:underline">
-              GMT Policies™
+              THE FINSERVE™
             </a>
             . All Rights Reserved.
           </span>

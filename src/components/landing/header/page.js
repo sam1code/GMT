@@ -10,11 +10,11 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { id: 1, text: "Home" },
-    { id: 2, text: "Services" },
-    { id: 3, text: "Blog" },
-    { id: 4, text: "Contact" },
-    { id: 5, text: "About" },
+    { id: 1, text: "Home", link: "/" },
+    { id: 2, text: "Services", link: "#services" },
+    { id: 3, text: "Blog", link: "/blog" },
+    { id: 4, text: "Contact", link: "/contact" },
+    { id: 5, text: "About", link: "/about" },
   ];
 
   return (
@@ -26,6 +26,7 @@ const Navbar = () => {
           <li
             key={item.id}
             className="p-4 hover:text-blue-700 rounded-xl m-2 cursor-pointer duration-300"
+            onClick={() => window.location.replace(item.link)}
           >
             {item.text}
           </li>

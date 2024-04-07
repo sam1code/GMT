@@ -7,7 +7,9 @@ import amazon from "../../../../public/amazon.png";
 export default function Home() {
   return (
     <main className="flex flex-col px-24">
-      <h1 className="text-4xl font-bold">Our Clients</h1>
+      <h1 className="text-4xl font-bold text-center md:text-left mt-16">
+        Our Clients
+      </h1>
       <div className="flex lg:flex-row flex-col gap-10 items-center mt-4">
         <p className="text-gray-600 max-w-sm">
           Several selected clients, who already believe in our service.

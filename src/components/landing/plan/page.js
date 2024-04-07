@@ -2,15 +2,14 @@ export default function Home() {
   return (
     <div className="flex flex-col-reverse text md:flex-row items-center justify-center gap-20 mt-20 p-4">
       <iframe
-        src="https://www.youtube.com/embed/O5O3yK8DJCc?si=nFHptYEU6gHkOgD7"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/i7hLKddvXn4?si=luZwemF81ZnJtOtU&amp;start=6"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
-        style={{
-          borderRadius: "10px",
-        }}
-        className="shadow-2xl w-full md:w-1/2 h-80"
       ></iframe>
       <div className="flex flex-col items-center justify-center max-w-md">
         <h1 className="text-4xl font-bold text-gray-800">
